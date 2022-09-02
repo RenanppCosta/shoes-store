@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Roboto&display=swap');
+
 * {
     margin: 0;
     padding: 0;
@@ -25,7 +27,52 @@
   }
   
   .lista-navegacao a {
-    padding: 10px;
+    padding: 20px;
     text-decoration: none;  
     color: #777777;
+    text-transform: uppercase;
   }
+
+  .form-titulo{
+    width: 585px;
+    height: 55px;
+    left: 123px;
+    top: 177px;
+
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 39px;
+    line-height: 53px;
+
+    color: #575757;
+  }
+
+form{
+  display: flex;
+  flex-direction: column;
+  width: 40%;
+  padding: 30px;
+}
+
+
+form label, form h3{
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+  padding: 7px;
+  color: #9B9B9B;
+  flex-direction: row;
+}
+
+.check-label{
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16px;
+  color: #777777;
+  flex-direction: row;
+}

@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shoes Store</title>
+    <link href="/css/styles.css" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div>
+          <img src="images/logo-color.png" alt="Logo da shoes store"/>      
+        </div>
+        <nav>   
+          <ul class="lista-navegacao">
+            <li><a href="#">Todos os produtos</a></li>
+            <li><a href="#">Coleções</a></li>
+            <li><a href="#">Outlet</a></li>
+          </ul>   
+        </nav>
+      </header>
+      <main>
+        <h1 class="form-titulo">Faça parte do nosso time</h1>
+        <form method="post" action="#">
+            <label for="input-name">Nome</label>
+              <input type="text" name="name" id="input-name">
+            <label for="input-email">Email</label>
+              <input type="email" name="email" id="input-email"> 
+            <label for="input-telefone">Telefone</label>
+              <input type="tel" name="telefone" id="input-telefone">
+            <label for="input-departamentos">Departamentos</label>
+              <select name="departamentos" id="input-departamentos">
+                <option value="atendimento"></option>
+                <option value="rh">RH</option>
+                <option value="finanças">Finanças</option>
+                <option value="vendas">Vendas</option>
+              </select>
+            <h3>Disponibilidade</h3>  
+              <input type="checkbox" name="integral" id="integral"  value="integral">
+              <label class="check-label" for="integral"> Integral (8h)</label>
+              <input type="checkbox" name="meio-periodo" id="meio-periodo" value="meio-periodo"> 
+              <label class="check-label"for="meio-periodo"> Meio período (4h)</label>
+              <input type="checkbox" name="freelancer" id="freelancer" value="freelancer"> 
+              <label class="check-label"for="freelancer"> Freelancer</label>
+            <h3>Melhor para entrarmos em contato com você?</h3>
+               <input type="radio" name="contato" id="email" value="email">
+               <label class="check-label"for="email">Email</label>
+               <input type="radio" name="contato" id="ligacao" value="ligacao">
+               <label class="check-label" for="ligacao">Ligação</label>
+               <input type="radio" name="contato" id="whatsapp" value="whatsapp">
+               <label class="check-label"for="whatsapp">Whatsapp</label>
+            <label for="mensagem">Mensagem</label>
+               <textarea name="mensagem" id="mensagem" cols="30" rows="10"></textarea>
+            <label for="curriculo">Currículo</label>
+                <input type="file" name="curriculo" id="curriculo">
+            <button type="submit">enviar</button>       
+               
+
+        </form>
+        
+      </main>
+</body>
+</html>
